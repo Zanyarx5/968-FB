@@ -476,7 +476,7 @@ def pilih_super():
 	p = ThreadPool(50)
 	p.map(main, id)
 	print "\033[1;96m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•\033[1;93m\033[1;96m•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"
-	print "  \033[1;93m«---•◈•---Developed By eso--•◈•---»" #Dev:love_hacker
+	print "  \033[1;93m«---•◈•---Developed By 968hedi--•◈•---»" #Dev:love_hacker
 	print '\033[1;96m✅BO Ragrdn➡ Ctrl+Z.↩ Next Type (python2 kurdm.py)↩\033[1;97m....'
 	print"\033[1;92mTotal OK/\x1b[1;93mCP \033[1;93m: \033[1;97m"+str(len(oks))+"\033[1;97m/\033[1;93m"+str(len(cekpoint))
 	print """
