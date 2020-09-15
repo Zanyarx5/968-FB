@@ -163,7 +163,7 @@ jalan("Hack By 968hedi")
 print "•◈•▬ ▬ ▬ ▬ ▬ ▬ ▬▬ ▬ ▬ ▬ ▬ ▬ ▬•◈•"
 
 CorrectUsername = "968hedi"
-CorrectPassword = "h99hedih00"
+CorrectPassword = "h88hedih00"
 
 loop = 'true'
 while (loop == 'true'):
