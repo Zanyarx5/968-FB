@@ -54,7 +54,6 @@ def anime(z):
 logo = """
 
 os.system("clear")
-print  """LAGggggggggggggggggggggg"""
 jalan("░░░░▓")
 jalan("░░░▓▓")
 jalan("░░█▓▓█")
@@ -180,7 +179,6 @@ print  """
 """                                
 hr = """
 os.system("clear")
-print  """LAGggggggggggggggggggggg"""
 jalan("░░░░▓")
 jalan("░░░▓▓")
 jalan("░░█▓▓█")
