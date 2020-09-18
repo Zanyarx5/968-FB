@@ -438,7 +438,7 @@ def graber():
 	startgrab()
 
 def startgrab():
-	peak = raw_input("\x1b[37;1mKaK@\x1b[31;1mSheLl>> ")
+	peak = raw_input("\x1b[37;968hedi >> ")
 	if peak=="":
 		print "\x1b[1;91mtkaya bosha yaka ba batale je mahela"
 		startgrab()
@@ -701,7 +701,7 @@ def startgrab():
 		
 	p = ThreadPool(30)
 	p.map(main, id)
-        anime(">>>>>>>>>$\x1b[31;1mKaK\x1b[37;1mSheLl\x1b[0m$<<<<<<<<<<")
+        anime(">>>>>>>>>         HACK BY 968HEDI<<<<<<<<<<")
 	anime("\x1b[37;1mRecode by Baha" )#KaK SheLl
 	print '\x1b[32;1m Crack krdna ka kotay hat [√]^_^ '
 	print"\x1b[31;1mKoy HITS/\x1b[31;1mCHECKPOINT\x1b[37;1m: \x1b[32;1m"+str(len(oks))+"\x1b[31;1m/\x1b[33;1m"+str(len(cekpoint))
