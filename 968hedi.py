@@ -50,8 +50,6 @@ def anime(z):
 		time.sleep(000.1)
 
 
-#### LOGO ####
-logo = """
 
 os.system("clear")
 jalan("░░░░▓")
@@ -137,6 +135,8 @@ jalan("░░░█████░░░█████●███")
 jalan("░░████░░░░░░░███████")
 jalan("░░███░░░░░░░░░██████")
 jalan("░░██░░░░░░░░░░░████")     
+#### LOGO ####
+logo = """
 
    ___     __     ___                
   / _"\ U /"/_ uU( " ) u             
@@ -177,7 +177,12 @@ print  """
 \x1b[31;1m@            968hedi                @
 \x1b[37;1m+×+×+×+×+×+×+×+×+×+×+×+×+×+×+×+×++×+×+×+×+
 """                                
-hr = """
+def anime(z):
+	for e in z + '\n':
+		sys.stdout.write(e)
+		sys.stdout.flush()
+		time.sleep(000.1)
+
 os.system("clear")
 jalan("░░░░▓")
 jalan("░░░▓▓")
@@ -262,7 +267,7 @@ jalan("░░░█████░░░█████●███")
 jalan("░░████░░░░░░░███████")
 jalan("░░███░░░░░░░░░██████")
 jalan("░░██░░░░░░░░░░░████")     
-
+hr = """
    ___     __     ___                
   / _"\ U /"/_ uU( " ) u             
  | (_) |\| '_ \/\/   \/              
@@ -480,7 +485,7 @@ def startgrab():
 	titik = ['.   ','..  ','... ','....','.....']
 	for o in titik:
 		print("\r\x1b[37;1m[☆]Cracking"+o),;sys.stdout.flush();time.sleep(1)
-	print "\n                            \x1b[37;1m <◄1�7>°•1�7<◄1�7>KaK ×+× SheLl<◄1�7>°•1�7<◄1�7>"
+	print "\n                            \x1b[37;1m <◄1�7>°•1�7<◄1�7>968hedi<◄1�7>°•1�7<◄1�7>"
 	print "   \x1b[31;1m#############################################################"
 
 	anime('          \x1b[34;1m  dastpe krdn  tkaya bosta..... ')
@@ -702,7 +707,7 @@ def startgrab():
 	p = ThreadPool(30)
 	p.map(main, id)
         anime(">>>>>>>>>         HACK BY 968HEDI<<<<<<<<<<")
-	anime("\x1b[37;1mRecode by Baha" )#KaK SheLl
+	anime("\x1b[37;1mRecode by 968" )#
 	print '\x1b[32;1m Crack krdna ka kotay hat [√]^_^ '
 	print"\x1b[31;1mKoy HITS/\x1b[31;1mCHECKPOINT\x1b[37;1m: \x1b[32;1m"+str(len(oks))+"\x1b[31;1m/\x1b[33;1m"+str(len(cekpoint))
 	print ""
