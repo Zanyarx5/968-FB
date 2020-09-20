@@ -177,13 +177,7 @@ print  """
 \x1b[31;1m@            968hedi                @
 \x1b[37;1m+×+×+×+×+×+×+×+×+×+×+×+×+×+×+×+×++×+×+×+×+
 """                                
-def anime(z):
-	for e in z + '\n':
-		sys.stdout.write(e)
-		sys.stdout.flush()
-		time.sleep(000.1)
 
-os.system("clear")
 jalan("░░░░▓")
 jalan("░░░▓▓")
 jalan("░░█▓▓█")
