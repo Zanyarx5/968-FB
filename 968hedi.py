@@ -52,6 +52,9 @@ def anime(z):
 
 
 os.system("clear")
+     
+#### LOGO ####
+logo = """
 jalan("░░░░▓")
 jalan("░░░▓▓")
 jalan("░░█▓▓█")
@@ -134,10 +137,7 @@ jalan("░░░░█████▓▓█████████")
 jalan("░░░█████░░░█████●███")
 jalan("░░████░░░░░░░███████")
 jalan("░░███░░░░░░░░░██████")
-jalan("░░██░░░░░░░░░░░████")     
-#### LOGO ####
-logo = """
-
+jalan("░░██░░░░░░░░░░░████")
    ___     __     ___                
   / _"\ U /"/_ uU( " ) u             
  | (_) |\| '_ \/\/   \/              
@@ -491,7 +491,7 @@ def startgrab():
 		try:
 			os.mkdir('Graber')
 		except OSError:
-			pass #KaKSheLl
+			
 		try:
 			a = requests.get('https://graph.facebook.com/'+user+'/?access_token='+toket)												
 			b = json.loads(a.text)												
