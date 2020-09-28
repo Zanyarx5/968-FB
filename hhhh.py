@@ -190,7 +190,7 @@ def menu():
 	option()
 
 def option():
-	unikers = raw_input("\n\x1b[31;1m@\x1b[37;1mS>>\x1b[33;1m")
+	unikers = raw_input("\n\x1b[31;1m\x1b[37;1m968hacker>>\x1b[33;1m")
 	if unikers =="":
 		print "\x1b[31;1m[!]tkaya boshaya ka ba batale je mahela"
 		option()
