@@ -90,8 +90,8 @@ group: poll3a"""
 
 print "---------------------------------------------------"
 
-Username = "968"
-Password = "968"
+Username = "968ⁿ"
+Password = "968ⁿ"
 
 loop = 'true'
 while (loop == 'true'):
